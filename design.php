@@ -471,15 +471,15 @@ Passende Makler in lhrer Region werden gesucht...</p>
 </div> 
 
 
-<div id="navbar">
-    <p class="stickybar">Jetzt kostenlose Immobilienbewertung erhalten 
-        <button style="padding-top: 10px;
+<div id="navbar"  style="z-index: 1;    opacity: 1;">
+    <p class="stickybar" style="margin-bottom: 0px; padding:10px">Jetzt kostenlose Immobilienbewertung erhalten 
+        <button style="padding: 10px;
         background: #01ffcf;
         border: none;
         outline: none;
-        border-radius: 100px;
+        border-radius: 10px;
         width: 143px;
-    ">Jetzt starten </button></p>
+     ">Jetzt starten </button></p>
   </div>
 
 <center>
@@ -1088,6 +1088,23 @@ slider.oninput = function() {
     document.getElementById(varon).style.display = 'block'
     }
 } 
+$(window).scroll(function() {
+
+$('#navbar').show();
+number=0;
+number=number+0.00001;
+num=parseFloat(number)
+console.log(num);
+if($(window).scrollTop()<500) {
+    $('#navbar').hide();
+}else if($(window).scrollTop()>500) {
+    $('#navbar').show();
+}
+});
+//    -webkit-transition: opacity .25s ease-in;
+// -moz-transition: opacity .25s ease-in;
+//            -ms-transition: opacity .25s ease-in;
+//            -o-transition: opacity .25s ease-in;
 </script>
 <!------------------------------------------- Script File ------------------------------------------->
 

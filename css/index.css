@@ -7,6 +7,12 @@
 "Make It Sans IS24 Web",
 "DejaVu Sans",Arial,Helvetica,sans-serif !
 */
+.i-n{
+    border: #000000 solid 1px;
+}
+.i-n:hover{
+    border: #000000 solid 1px;
+}
 body{
     font-family: sans-serif !important;
     
@@ -1023,7 +1029,6 @@ background-color: #616161 !important;
     text-decoration: none;
     padding-left: 5%;
     padding-right: 5%;
-    
     border: 1.5px solid !important;
 }
 

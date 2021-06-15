@@ -191,7 +191,7 @@
                         <!-- <div class="form-card"> -->
                             <div class="row">
                                 <div class="col-md-12 text-center">
-                                <p style="font-weight: 100; font-size:23px">In welcher Region befindet sich die Immobilie?</p>
+                                <p style="font-weight: 100; font-size:23px;margin-top:10px;margin-bottom:40px">In welcher Region befindet sich die Immobilie?</p>
                                 </div>
                             </div>
                  
@@ -200,7 +200,7 @@
                                 <div class="col-md-6 offset-md-3 col-lg-4 offset-lg-4 px-md-4  col-sm-12 tab1-wrapper" >
                                 
                                 
-                                <label  style="font-weight: 700; font-size:14px">PLZ der Immobilie</label> <br>
+                                <label  style="font-weight: 700; font-size:14px ;">PLZ der Immobilie</label> <br>
                                 <input type="text" class="bz btns" style="width: 100% !important" name="bz" placeholder="B.z.1405" required /> 
                             <div class="mt-3">&nbsp;</div>
                             
@@ -210,7 +210,7 @@
                             </div> 
                          <div class="col-md-12 text-center next px-4">
                              
-                         <input type="button"  name="next" class="nbtn next action-button" value="Weiter" />
+                         <input type="button" style="margin-top:20px" name="next" class="nbtn next action-button" value="Weiter" />
                          </div>
                       
                         
@@ -220,7 +220,7 @@
                         <div class="form-card">
                             <div class="row">
                                 <div class="col-12 text-center">
-                               <p style="font-size: 23px; ">Wie groß ist die Wohnfläche?</p>
+                               <p style="font-size: 23px; margin-top:5px;margin-bottom:40px">Wie groß sind Wohn- und Grundstücksfläche?</p>
                             </div>
                             </div>
                             <div class="row"><div class="col-md-12 form-wrapper" style="display: flex;">
@@ -279,7 +279,7 @@
                         <div class="form-card">
                             <div class="row">
                             <div class="col-12 text-center">
-                               <p style="font-size: 23px; ">Wie viele Zimmer hat die Immobilie?</p>​
+                               <p style="font-size: 23px;  margin-top:10px ;   margin-bottom: 0rem;">Wie viele Zimmer hat die Immobilie?</p>​
                                <span style="font-size: 18px; ">(ohne Küche und Bad)</span>
                             </div>
                             </div> 
@@ -290,23 +290,19 @@
                   
                            
        
-                                <div class="col-lg-5 offset-lg-4 col-md-8 offset-md-3 col-sm-6 offset-sm-3 col-sm-10 offset-sm-2   px-md-4 div-wrapper" >
+                                <div class="col-lg-5 offset-lg-4 col-md-8 offset-md-3 col-sm-6 offset-sm-3 col-sm-10 offset-sm-2   px-md-4 div-wrapper" style="margin-top: 35px;" >
                                 <label>Zimmer</label>
                          
                
                          <br>
           <div class="col-md-12"style="padding:0px" >
-                                    <button type="button" class="btn btn-outline-secondary btn-number " style="border-top-right-radius: 0px;
-    border-bottom-right-radius: 0px;  border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;" disabled="disabled" data-type="minus" data-field="quant[1]">
+                                    <button type="button" class="btn btn-outline-secondary btn-number " style="border-top-right-radius: 0px;border-bottom-right-radius: 0px;  border-right: 0px;border-top-left-radius: 5px;border-bottom-left-radius: 5px;" disabled="disabled" data-type="minus" data-field="quant[1]">
                                         <i class="fa fa-minus"></i>
                                     </button>
              
-                                <input type="text" name="quant[1]"  style="border-radius:0;margin-inline: -5px !important;padding: 4px 15px 8px 15px;margin-top:0%;width:40%" class=" input-number" value="1" min="1" max="100">
+                                <input type="text" name="quant[1]"  style="border-radius:0;margin-inline: -5px !important;padding: 5px 15px 7px 15px;margin-top:0%;width:40%;border:#6c757d solid 1px" class="input-number" value="1" min="1" max="100">
               
-                                    <button type="button"  style="border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;  border-top-left-radius: 0px;
-    border-bottom-left-radius: 0px;"class="btn btn-outline-secondary btn-number" data-type="plus" data-field="quant[1]">
+                                    <button type="button"  style=" border-top-right-radius: 5px;border-bottom-right-radius: 5px;  border-top-left-radius: 0px;border-bottom-left-radius: 0px;"class="btn btn-outline-secondary btn-number" data-type="plus" data-field="quant[1]">
                                         <i class="fa fa-plus"></i>
                                     </button>
         
@@ -323,7 +319,7 @@
 
 
                         </div> <br>
-                        <div class="col-md-12 text-center next px-4">
+                        <div class="col-md-12 text-center next px-4" style="margin-top: 25px;">
                         <input type="button" name="next" style="float: center; " class="nbtn next action-button" value="Weiter" /> 
                         </div>
                         <!-- <input type="button" name="previous" class="previous action-button-previous" value="Previous" /> -->
@@ -333,7 +329,7 @@
                         <div class="form-card ">
                             <div class="row">
                                 <div class="col-12 text-center">
-                               <p style="font-size: 23px; ">Für welches Thema interessieren Sie sich?</p>
+                               <p style="font-size: 23px; margin-top:10px;margin-bottom:40px">Für welches Thema interessieren Sie sich?</p>
                                </div>
                             </div> 
                             
@@ -347,7 +343,8 @@
                         <div class="form-card">
                             <div class="row">
                                 <div class="col-12 text-center" >
-                                <p style="font-size: 23px; " >Könnte ein Verkauf mit Makler</p><span style="font-size: 18px; ">für Sie in Frage kommen?</span>
+                                <p style="font-size: 23px; margin-bottom:0px" >Könnte ein Verkauf mit Makler</p><span style="font-size: 18px; ">für Sie in Frage kommen?</span>
+                                <p style="margin-top:10px;margin-bottom:10px"><a href="#">Ihre Vorteile</a></p>
                                 </div>
                                
                             </div> 
@@ -357,6 +354,8 @@
                             <input type="button"  name="next" class="btns next gif-btn link-11" value="Vielleicht" /><br>
 
                             <input type="button"  name="next" class="btns next  gif-btn link-11" value="Nein" />
+                            <p style="margin-top:30px;margin-bottom:30px;">Wir finanzieren diesen Service über die Provision unserer 
+        </p>
                     </fieldset>
 
           
